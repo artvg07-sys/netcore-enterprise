@@ -1,0 +1,53 @@
+# Secretos y variables de entorno
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+secrets.*
+*.token
+
+# Claves privadas y certificados sensibles
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Máquinas virtuales e imágenes de disco
+*.qcow2
+*.qcow
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.iso
+
+# Copias de seguridad y volcados
+*.bak
+*.dump
+*.sql.gz
+*.tar.gz
+*.tgz
+*.zip
+
+# Datos y archivos temporales
+*.log
+*.tmp
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Entornos de desarrollo
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
